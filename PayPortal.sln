@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPortal", "PayPortal\PayPortal.csproj", "{182E600D-F80B-4673-8075-DB5F65F57C04}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B2175DF-F227-4FC0-8C8A-BFA200ED0E4B} = {2B2175DF-F227-4FC0-8C8A-BFA200ED0E4B}
+		{D669F597-09C2-4A8C-8DBB-29C96D7ADB0C} = {D669F597-09C2-4A8C-8DBB-29C96D7ADB0C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{D669F597-09C2-4A8C-8DBB-29C96D7ADB0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{2B2175DF-F227-4FC0-8C8A-BFA200ED0E4B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D669F597-09C2-4A8C-8DBB-29C96D7ADB0C} = {D669F597-09C2-4A8C-8DBB-29C96D7ADB0C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{182E600D-F80B-4673-8075-DB5F65F57C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182E600D-F80B-4673-8075-DB5F65F57C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182E600D-F80B-4673-8075-DB5F65F57C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182E600D-F80B-4673-8075-DB5F65F57C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D669F597-09C2-4A8C-8DBB-29C96D7ADB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D669F597-09C2-4A8C-8DBB-29C96D7ADB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D669F597-09C2-4A8C-8DBB-29C96D7ADB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D669F597-09C2-4A8C-8DBB-29C96D7ADB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2175DF-F227-4FC0-8C8A-BFA200ED0E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2175DF-F227-4FC0-8C8A-BFA200ED0E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2175DF-F227-4FC0-8C8A-BFA200ED0E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2175DF-F227-4FC0-8C8A-BFA200ED0E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D6AC4C5-0201-44B0-AD97-CF1387B39B8B}
+	EndGlobalSection
+EndGlobal
